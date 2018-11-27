@@ -1,0 +1,381 @@
+ID_Partido;Liga;Temporada;Fecha;Hora;Jornada;Equipo Local;Goles Equipo Local;Equipo Visitante;Goles Equipo Visitante
+1;Liga Santander;2017-2018;20/08/2017;1:15:00 p. m.;1;Barcelona;2;Betis;0
+2;Liga Santander;2017-2018;21/08/2017;3:15:00 p. m.;1;Levante;1;Villareal;0
+3;Liga Santander;2017-2018;21/08/2017;1:15:00 p. m.;1;Malaga;0;Eibar;1
+4;Liga Santander;2017-2018;18/08/2017;1:15:00 p. m.;1;Leganes;1;Alaves;0
+5;Liga Santander;2017-2018;20/08/2017;11:15:00 a. m.;1;Athletic de Bilbao;0;Getafe;0
+6;Liga Santander;2017-2018;20/08/2017;3:15:00 p. m.;1;Deportivo la Coruña;0;Real Madrid;3
+7;Liga Santander;2017-2018;19/08/2017;3:15:00 p. m.;1;Sevilla;1;Espanyol;1
+8;Liga Santander;2017-2018;19/08/2017;11:15:00 a. m.;1;Celta de Vigo;2;Real Sociedad;3
+9;Liga Santander;2017-2018;18/08/2017;3:15:00 p. m.;1;Valencia;1;Las Palmas;0
+10;Liga Santander;2017-2018;19/08/2017;1:15:00 p. m.;1;Girona;2;Atletico de Madrid;2
+11;Liga Santander;2017-2018;27/08/2017;11:15:00 a. m.;2;Eibar;0;Athletic de Bilbao;1
+12;Liga Santander;2017-2018;27/08/2017;11:15:00 a. m.;2;Espanyol;0;Leganes;1
+13;Liga Santander;2017-2018;27/08/2017;3:15:00 p. m.;2;Real Madrid;2;Valencia;2
+14;Liga Santander;2017-2018;26/08/2017;1:15:00 p. m.;2;Levante;2;Deportivo la Coruña;2
+15;Liga Santander;2017-2018;27/08/2017;1:15:00 p. m.;2;Getafe;0;Sevilla;1
+16;Liga Santander;2017-2018;26/08/2017;11:15:00 a. m.;2;Alaves;0;Barcelona;2
+17;Liga Santander;2017-2018;26/08/2017;3:15:00 p. m.;2;Las Palmas;1;Atletico de Madrid;5
+18;Liga Santander;2017-2018;25/08/2017;1:15:00 p. m.;2;Real Sociedad;3;Villareal;0
+19;Liga Santander;2017-2018;25/08/2017;3:00:00 p. m.;2;Betis;2;Celta deVigo;1
+20;Liga Santander;2017-2018;26/08/2017;1:15:00 p. m.;2;Girona;1;Malaga;0
+21;Liga Santander;2017-2018;10/09/2017;11:30:00 a. m.;3;Celta de Vigo;1;Alaves;0
+22;Liga Santander;2017-2018;10/09/2017;5:00:00 a. m.;3;Deportivo la Coruña;2;Real Sociedad;4
+23;Liga Santander;2017-2018;11/09/2017;2:00:00 p. m.;3;Malaga;1;Las Palmas;3
+24;Liga Santander;2017-2018;10/09/2017;9:15:00 a. m.;3;Athletic de Bilbao;2;Girona;0
+25;Liga Santander;2017-2018;10/09/2017;1:45:00 p. m.;3;Villareal;3;Betis;1
+26;Liga Santander;2017-2018;9/09/2017;1:45:00 p. m.;3;Barcelona;5;Espanyol;0
+27;Liga Santander;2017-2018;9/09/2017;9:15:00 a. m.;3;Valencia;0;Atletico de Madrid;0
+28;Liga Santander;2017-2018;8/09/2017;2:00:00 p. m.;3;Leganes;1;Getafe;2
+29;Liga Santander;2017-2018;9/09/2017;6:00:00 a. m.;3;Real Madrid;1;Levante;1
+30;Liga Santander;2017-2018;9/09/2017;11:30:00 a. m.;3;Sevilla;3;Eibar;0
+31;Liga Santander;2017-2018;17/09/2017;9:15:00 a. m.;4;Girona;0;Sevilla;1
+32;Liga Santander;2017-2018;17/09/2017;11:30:00 a. m.;4;Las Palmas;1;Athletic de Bilbao;0
+33;Liga Santander;2017-2018;18/09/2017;2:00:00 p. m.;4;Espanyol;2;Celta deVigo;1
+34;Liga Santander;2017-2018;17/09/2017;5:00:00 a. m.;4;Alaves;0;Villareal;3
+35;Liga Santander;2017-2018;17/09/2017;1:45:00 p. m.;4;Real Sociedad;1;Real Madrid;3
+36;Liga Santander;2017-2018;16/09/2017;11:30:00 a. m.;4;Betis;2;Deportivo la Coruña;1
+37;Liga Santander;2017-2018;16/09/2017;6:00:00 a. m.;4;Levante;1;Valencia;1
+38;Liga Santander;2017-2018;16/09/2017;1:45:00 p. m.;4;Atletico de Madrid;1;Malaga;0
+39;Liga Santander;2017-2018;15/09/2017;2:00:00 p. m.;4;Eibar;1;Leganes;0
+40;Liga Santander;2017-2018;16/09/2017;9:15:00 a. m.;4;Getafe;1;Barcelona;2
+41;Liga Santander;2017-2018;21/09/2017;2:00:00 p. m.;5;Celta de Vigo;1;Getafe;1
+42;Liga Santander;2017-2018;21/09/2017;3:00:00 p. m.;5;Levante;3;Real Sociedad;0
+43;Liga Santander;2017-2018;21/09/2017;1:00:00 p. m.;5;Villareal;0;Espanyol;0
+44;Liga Santander;2017-2018;20/09/2017;3:00:00 p. m.;5;Real Madrid;0;Betis;1
+45;Liga Santander;2017-2018;20/09/2017;3:00:00 p. m.;5;Sevilla;1;Las Palmas;0
+46;Liga Santander;2017-2018;20/09/2017;1:00:00 p. m.;5;Leganes;0;Girona;0
+47;Liga Santander;2017-2018;20/09/2017;1:00:00 p. m.;5;Athletic de Bilbao;1;Atletico de Madrid;2
+48;Liga Santander;2017-2018;19/09/2017;1:00:00 p. m.;5;Valencia;5;Malaga;0
+49;Liga Santander;2017-2018;20/09/2017;2:00:00 p. m.;5;Deportivo la Coruña;1;Alaves;0
+50;Liga Santander;2017-2018;19/09/2017;3:00:00 p. m.;5;Barcelona;6;Eibar;1
+51;Liga Santander;2017-2018;24/09/2017;9:15:00 a. m.;6;Getafe;4;Villareal;0
+52;Liga Santander;2017-2018;24/09/2017;11:30:00 a. m.;6;Las Palmas;0;Leganes;2
+53;Liga Santander;2017-2018;25/09/2017;2:00:00 p. m.;6;Betis;4;Levante;0
+54;Liga Santander;2017-2018;24/09/2017;5:00:00 a. m.;6;Espanyol;4;Deportivo la Coruña;1
+55;Liga Santander;2017-2018;24/09/2017;1:45:00 p. m.;6;Real Sociedad;2;Valencia;3
+56;Liga Santander;2017-2018;24/09/2017;11:30:00 a. m.;6;Eibar;0;Celta deVigo;4
+57;Liga Santander;2017-2018;23/09/2017;9:15:00 a. m.;6;Alaves;1;Real Madrid;2
+58;Liga Santander;2017-2018;23/09/2017;1:45:00 p. m.;6;Girona;0;Barcelona;3
+59;Liga Santander;2017-2018;23/09/2017;6:00:00 a. m.;6;Atletico de Madrid;2;Sevilla;0
+60;Liga Santander;2017-2018;23/09/2017;11:30:00 a. m.;6;Malaga;3;Athletic de Bilbao;3
+61;Liga Santander;2017-2018;1/10/2017;1:45:00 p. m.;7;Real Madrid;2;Espanyol;0
+62;Liga Santander;2017-2018;1/10/2017;5:00:00 a. m.;7;Real Sociedad;4;Betis;4
+63;Liga Santander;2017-2018;1/10/2017;11:30:00 a. m.;7;Valencia;3;Athletic de Bilbao;2
+64;Liga Santander;2017-2018;1/10/2017;9:15:00 a. m.;7;Barcelona;3;Las Palmas;0
+65;Liga Santander;2017-2018;1/10/2017;11:30:00 a. m.;7;Villareal;3;Eibar;0
+66;Liga Santander;2017-2018;30/09/2017;9:15:00 a. m.;7;Sevilla;2;Malaga;0
+67;Liga Santander;2017-2018;30/09/2017;6:00:00 a. m.;7;Deportivo la Coruña;2;Getafe;1
+68;Liga Santander;2017-2018;29/09/2017;2:00:00 p. m.;7;Celta de Vigo;3;Girona;3
+69;Liga Santander;2017-2018;30/09/2017;1:45:00 p. m.;7;Leganes;0;Atletico de Madrid;0
+70;Liga Santander;2017-2018;30/09/2017;11:30:00 a. m.;7;Levante;0;Alaves;2
+71;Liga Santander;2017-2018;15/10/2017;9:15:00 a. m.;8;Girona;1;Villareal;2
+72;Liga Santander;2017-2018;15/10/2017;11:30:00 a. m.;8;Malaga;0;Leganes;2
+73;Liga Santander;2017-2018;15/10/2017;1:45:00 p. m.;8;Betis;3;Valencia;6
+74;Liga Santander;2017-2018;15/10/2017;5:00:00 a. m.;8;Eibar;0;Deportivo la Coruña;0
+75;Liga Santander;2017-2018;16/10/2017;2:00:00 p. m.;8;Las Palmas;2;Celta deVigo;5
+76;Liga Santander;2017-2018;14/10/2017;9:15:00 a. m.;8;Getafe;1;Real Madrid;2
+77;Liga Santander;2017-2018;14/10/2017;11:30:00 a. m.;8;Alaves;0;Real Sociedad;2
+78;Liga Santander;2017-2018;13/10/2017;2:00:00 p. m.;8;Espanyol;0;Levante;0
+79;Liga Santander;2017-2018;14/10/2017;6:00:00 a. m.;8;Athletic de Bilbao;1;Sevilla;0
+80;Liga Santander;2017-2018;14/10/2017;1:45:00 p. m.;8;Atletico de Madrid;1;Barcelona;1
+81;Liga Santander;2017-2018;22/10/2017;5:00:00 a. m.;9;Villareal;4;Las Palmas;0
+82;Liga Santander;2017-2018;22/10/2017;1:45:00 p. m.;9;Real Madrid;3;Eibar;0
+83;Liga Santander;2017-2018;23/10/2017;2:00:00 p. m.;9;Deportivo la Coruña;1;Girona;2
+84;Liga Santander;2017-2018;22/10/2017;11:03:00 a. m.;9;Leganes;1;Athletic de Bilbao;0
+85;Liga Santander;2017-2018;23/10/2017;1:00:00 p. m.;9;Real Sociedad;1;Espanyol;1
+86;Liga Santander;2017-2018;22/10/2017;9:15:00 a. m.;9;Celta de Vigo;0;Atletico de Madrid;1
+87;Liga Santander;2017-2018;21/10/2017;11:30:00 a. m.;9;Valencia;4;Sevilla;0
+88;Liga Santander;2017-2018;21/10/2017;6:00:00 a. m.;9;Levante;1;Getafe;1
+89;Liga Santander;2017-2018;21/10/2017;1:45:00 p. m.;9;Barcelona;2;Malaga;0
+90;Liga Santander;2017-2018;21/10/2017;9:15:00 a. m.;9;Betis;2;Alaves;0
+91;Liga Santander;2017-2018;29/10/2017;2:45:00 p. m.;10;Malaga;2;Celta deVigo;1
+92;Liga Santander;2017-2018;30/10/2017;3:00:00 p. m.;10;Espanyol;1;Betis;0
+93;Liga Santander;2017-2018;30/10/2017;3:00:00 p. m.;10;Las Palmas;1;Deportivo la Coruña;3
+94;Liga Santander;2017-2018;29/10/2017;6:00:00 a. m.;10;Getafe;2;Real Sociedad;1
+95;Liga Santander;2017-2018;29/10/2017;10:15:00 a. m.;10;Girona;2;Real Madrid;1
+96;Liga Santander;2017-2018;29/10/2017;12:30:00 p. m.;10;Eibar;2;Levante;2
+97;Liga Santander;2017-2018;28/10/2017;11:30:00 a. m.;10;Atletico de Madrid;1;Villareal;1
+98;Liga Santander;2017-2018;28/10/2017;1:45:00 p. m.;10;Athletic de Bilbao;0;Barcelona;2
+99;Liga Santander;2017-2018;28/10/2017;3:30:00 p. m.;10;Sevilla;2;Leganes;1
+100;Liga Santander;2017-2018;28/10/2017;6:00:00 a. m.;10;Alaves;1;Valencia;2
+101;Liga Santander;2017-2018;5/11/2017;2:45:00 p. m.;11;Real Madrid;3;Las Palmas;0
+102;Liga Santander;2017-2018;5/11/2017;12:30:00 p. m.;11;Real Sociedad;3;Eibar;1
+103;Liga Santander;2017-2018;5/11/2017;12:30:00 p. m.;11;Villareal;2;Malaga;0
+104;Liga Santander;2017-2018;5/11/2017;10:15:00 a. m.;11;Celta de Vigo;3;Athletic de Bilbao;1
+105;Liga Santander;2017-2018;5/11/2017;6:00:00 a. m.;11;Levante;1;Girona;2
+106;Liga Santander;2017-2018;4/11/2017;2:45:00 p. m.;11;Barcelona;2;Sevilla;1
+107;Liga Santander;2017-2018;4/11/2017;12:30:00 p. m.;11;Alaves;1;Espanyol;0
+108;Liga Santander;2017-2018;4/11/2017;10:15:00 a. m.;11;Deportivo la Coruña;0;Atletico de Madrid;1
+109;Liga Santander;2017-2018;4/11/2017;7:00:00 a. m.;11;Valencia;3;Leganes;0
+110;Liga Santander;2017-2018;3/11/2017;3:00:00 p. m.;11;Betis;2;Getafe;2
+111;Liga Santander;2017-2018;20/11/2017;3:00:00 p. m.;12;Eibar;5;Betis;0
+112;Liga Santander;2017-2018;19/11/2017;2:45:00 p. m.;12;Athletic de Bilbao;1;Villareal;1
+113;Liga Santander;2017-2018;19/11/2017;12:30:00 p. m.;12;Las Palmas;0;Levante;2
+114;Liga Santander;2017-2018;19/11/2017;10:15:00 a. m.;12;Espanyol;0;Valencia;2
+115;Liga Santander;2017-2018;19/11/2017;6:00:00 a. m.;12;Malaga;3;Deportivo la Coruña;2
+116;Liga Santander;2017-2018;18/11/2017;2:45:00 p. m.;12;Atletico de Madrid;0;Real Madrid;0
+117;Liga Santander;2017-2018;18/11/2017;12:30:00 p. m.;12;Sevilla;2;Celta deVigo;1
+118;Liga Santander;2017-2018;18/11/2017;10:15:00 a. m.;12;Leganes;0;Barcelona;3
+119;Liga Santander;2017-2018;18/11/2017;7:00:00 a. m.;12;Getafe;4;Alaves;1
+120;Liga Santander;2017-2018;17/11/2017;3:00:00 p. m.;12;Girona;1;Real Sociedad;1
+121;Liga Santander;2017-2018;27/11/2017;3:00:00 p. m.;13;Espanyol;1;Getafe;0
+122;Liga Santander;2017-2018;26/11/2017;2:45:00 p. m.;13;Valencia;1;Barcelona;1
+123;Liga Santander;2017-2018;26/11/2017;12:30:00 p. m.;13;Villareal;2;Sevilla;3
+124;Liga Santander;2017-2018;26/11/2017;10:15:00 a. m.;13;Real Sociedad;2;Las Palmas;2
+125;Liga Santander;2017-2018;26/11/2017;6:00:00 a. m.;13;Deportivo la Coruña;2;Athletic de Bilbao;2
+126;Liga Santander;2017-2018;25/11/2017;2:45:00 p. m.;13;Levante;0;Atletico de Madrid;5
+127;Liga Santander;2017-2018;25/11/2017;12:30:00 p. m.;13;Betis;2;Girona;2
+128;Liga Santander;2017-2018;25/11/2017;10:15:00 a. m.;13;Real Madrid;3;Malaga;2
+129;Liga Santander;2017-2018;25/11/2017;7:00:00 a. m.;13;Alaves;1;Eibar;2
+130;Liga Santander;2017-2018;24/11/2017;3:00:00 p. m.;13;Celta de Vigo;1;Leganes;0
+131;Liga Santander;2017-2018;4/12/2017;3:00:00 p. m.;14;Girona;2;Alaves;3
+132;Liga Santander;2017-2018;3/12/2017;2:45:00 p. m.;14;Las Palmas;1;Betis;0
+133;Liga Santander;2017-2018;3/12/2017;12:30:00 p. m.;14;Eibar;3;Espanyol;1
+134;Liga Santander;2017-2018;3/12/2017;10:15:00 a. m.;14;Getafe;1;Valencia;0
+135;Liga Santander;2017-2018;3/12/2017;6:00:00 a. m.;14;Leganes;3;Villareal;1
+136;Liga Santander;2017-2018;2/12/2017;2:45:00 p. m.;14;Athletic de Bilbao;0;Real Madrid;0
+137;Liga Santander;2017-2018;2/12/2017;12:30:00 p. m.;14;Sevilla;2;Deportivo la Coruña;0
+138;Liga Santander;2017-2018;2/12/2017;10:15:00 a. m.;14;Atletico de Madrid;2;Real Sociedad;1
+139;Liga Santander;2017-2018;2/12/2017;7:00:00 a. m.;14;Barcelona;2;Celta deVigo;2
+140;Liga Santander;2017-2018;1/12/2017;3:00:00 p. m.;14;Malaga;0;Levante;0
+141;Liga Santander;2017-2018;11/12/2017;3:00:00 p. m.;15;Espanyol;0;Girona;1
+142;Liga Santander;2017-2018;10/12/2017;2:45:00 p. m.;15;Villareal;0;Barcelona;2
+143;Liga Santander;2017-2018;10/12/2017;12:30:00 p. m.;15;Levante;1;Athletic de Bilbao;2
+144;Liga Santander;2017-2018;10/12/2017;10:15:00 a. m.;15;Betis;0;Atletico de Madrid;1
+145;Liga Santander;2017-2018;10/12/2017;6:00:00 a. m.;15;Real Sociedad;0;Malaga;2
+146;Liga Santander;2017-2018;9/12/2017;2:45:00 p. m.;15;Valencia;2;Celta deVigo;1
+147;Liga Santander;2017-2018;9/12/2017;12:30:00 p. m.;15;Deportivo la Coruña;1;Leganes;0
+148;Liga Santander;2017-2018;9/12/2017;10:15:00 a. m.;15;Real Madrid;5;Sevilla;0
+149;Liga Santander;2017-2018;9/12/2017;7:00:00 a. m.;15;Getafe;0;Eibar;0
+150;Liga Santander;2017-2018;8/12/2017;3:00:00 p. m.;15;Alaves;2;Las Palmas;0
+151;Liga Santander;2017-2018;18/12/2017;3:00:00 p. m.;16;Malaga;0;Betis;2
+152;Liga Santander;2017-2018;17/12/2017;2:45:00 p. m.;16;Barcelona;4;Deportivo la Coruña;0
+153;Liga Santander;2017-2018;17/12/2017;12:30:00 p. m.;16;Las Palmas;2;Espanyol;2
+154;Liga Santander;2017-2018;17/12/2017;10:15:00 a. m.;16;Celta de Vigo;0;Villareal;1
+155;Liga Santander;2017-2018;17/12/2017;6:00:00 a. m.;16;Girona;1;Getafe;0
+156;Liga Santander;2017-2018;16/12/2017;2:45:00 p. m.;16;Atletico de Madrid;1;Alaves;0
+157;Liga Santander;2017-2018;16/12/2017;12:30:00 p. m.;16;Eibar;2;Valencia;1
+158;Liga Santander;2017-2018;16/12/2017;10:15:00 a. m.;16;Athletic de Bilbao;0;Real Sociedad;0
+159;Liga Santander;2017-2018;15/12/2017;3:00:00 p. m.;16;Sevilla;0;Levante;0
+160;Liga Santander;2017-2019;21/02/2018;12:45:00 p. m.;16;Leganes;1;Real Madrid;3
+161;Liga Santander;2017-2018;23/12/2017;12:30:00 p. m.;17;Deportivo la Coruña;1;Celta deVigo;3
+162;Liga Santander;2017-2018;23/12/2017;10:15:00 a. m.;17;Valencia;0;Villareal;1
+163;Liga Santander;2017-2018;23/12/2017;7:00:00 a. m.;17;Real Madrid;0;Barcelona;3
+164;Liga Santander;2017-2018;22/12/2017;3:30:00 p. m.;17;Espanyol;1;Atletico de Madrid;0
+165;Liga Santander;2017-2018;22/12/2017;1:30:00 p. m.;17;Betis;0;Athletic de Bilbao;2
+166;Liga Santander;2017-2018;21/12/2017;3:30:00 p. m.;17;Alaves;1;Malaga;0
+167;Liga Santander;2017-2018;21/12/2017;1:30:00 p. m.;17;Eibar;4;Girona;1
+168;Liga Santander;2017-2018;20/12/2017;3:30:00 p. m.;17;Real Sociedad;3;Sevilla;1
+169;Liga Santander;2017-2018;20/12/2017;1:30:00 p. m.;17;Getafe;2;Las Palmas;0
+170;Liga Santander;2017-2018;19/12/2017;3:30:00 p. m.;17;Levante;0;Leganes;0
+171;Liga Santander;2017-2018;8/01/2018;3:00:00 p. m.;18;Malaga;0;Espanyol;1
+172;Liga Santander;2017-2018;7/01/2018;2:45:00 p. m.;18;Celta de Vigo;2;Real Madrid;2
+173;Liga Santander;2017-2018;7/01/2018;12:30:00 p. m.;18;Athletic de Bilbao;2;Alaves;0
+174;Liga Santander;2017-2018;7/01/2018;12:30:00 p. m.;18;Villareal;1;Deportivo la Coruña;1
+175;Liga Santander;2017-2018;7/01/2018;10:15:00 a. m.;18;Barcelona;3;Levante;0
+176;Liga Santander;2017-2018;7/01/2018;6:00:00 a. m.;18;Leganes;1;Real Sociedad;0
+177;Liga Santander;2017-2018;6/01/2018;2:45:00 p. m.;18;Sevilla;3;Betis;5
+178;Liga Santander;2017-2018;6/01/2018;12:30:00 p. m.;18;Las Palmas;1;Eibar;2
+179;Liga Santander;2017-2018;6/01/2018;10:15:00 a. m.;18;Valencia;2;Girona;1
+180;Liga Santander;2017-2018;6/01/2018;7:00:00 a. m.;18;Atletico de Madrid;2;Getafe;0
+181;Liga Santander;2017-2018;15/01/2018;3:00:00 p. m.;19;Betis;3;Leganes;2
+182;Liga Santander;2017-2018;14/01/2018;2:45:00 p. m.;19;Real Sociedad;2;Barcelona;4
+183;Liga Santander;2017-2018;14/01/2018;12:30:00 p. m.;19;Espanyol;1;Athletic de Bilbao;1
+184;Liga Santander;2017-2018;14/01/2018;10:15:00 a. m.;19;Alaves;1;Sevilla;0
+185;Liga Santander;2017-2018;14/01/2018;6:00:00 a. m.;19;Levante;0;Celta deVigo;1
+186;Liga Santander;2017-2018;13/01/2018;2:45:00 p. m.;19;Deportivo la Coruña;1;Valencia;2
+187;Liga Santander;2017-2018;13/01/2018;12:30:00 p. m.;19;Eibar;0;Atletico de Madrid;1
+188;Liga Santander;2017-2018;13/01/2018;10:15:00 a. m.;19;Real Madrid;0;Villareal;1
+189;Liga Santander;2017-2018;13/01/2018;7:00:00 a. m.;19;Girona;6;Las Palmas;0
+190;Liga Santander;2017-2018;12/01/2018;3:00:00 p. m.;19;Getafe;1;Malaga;0
+191;Liga Santander;2017-2018;22/01/2018;3:00:00 p. m.;20;Eibar;1;Malaga;1
+192;Liga Santander;2017-2018;21/01/2018;2:45:00 p. m.;20;Betis;0;Barcelona;5
+193;Liga Santander;2017-2018;21/01/2018;12:30:00 p. m.;20;Real Sociedad;1;Celta deVigo;2
+194;Liga Santander;2017-2018;21/01/2018;10:15:00 a. m.;20;Real Madrid;7;Deportivo la Coruña;1
+195;Liga Santander;2017-2018;21/01/2018;6:00:00 a. m.;20;Alaves;2;Leganes;2
+196;Liga Santander;2017-2018;20/01/2018;2:45:00 p. m.;20;Las Palmas;2;Valencia;1
+197;Liga Santander;2017-2018;20/01/2018;12:30:00 p. m.;20;Villareal;2;Levante;1
+198;Liga Santander;2017-2018;20/01/2018;10:15:00 a. m.;20;Atletico de Madrid;1;Girona;1
+199;Liga Santander;2017-2018;20/01/2018;7:00:00 a. m.;20;Espanyol;0;Sevilla;3
+200;Liga Santander;2017-2018;19/01/2018;3:00:00 p. m.;20;Getafe;2;Athletic de Bilbao;2
+201;Liga Santander;2017-2018;29/01/2018;3:00:00 p. m.;21;Celta de Vigo;3;Betis;2
+202;Liga Santander;2017-2018;28/01/2018;2:45:00 p. m.;21;Barcelona;2;Alaves;1
+203;Liga Santander;2017-2018;28/01/2018;12:30:00 p. m.;21;Sevilla;1;Getafe;1
+204;Liga Santander;2017-2018;28/01/2018;10:15:00 a. m.;21;Atletico de Madrid;3;Las Palmas;0
+205;Liga Santander;2017-2018;28/01/2018;6:00:00 a. m.;21;Leganes;3;Espanyol;2
+206;Liga Santander;2017-2018;27/01/2018;2:45:00 p. m.;21;Villareal;4;Real Sociedad;2
+207;Liga Santander;2017-2018;27/01/2018;12:30:00 p. m.;21;Malaga;0;Girona;0
+208;Liga Santander;2017-2018;27/01/2018;10:15:00 a. m.;21;Valencia;1;Real Madrid;4
+209;Liga Santander;2017-2018;27/01/2018;7:00:00 a. m.;21;Deportivo la Coruña;2;Levante;2
+210;Liga Santander;2017-2018;26/01/2018;3:00:00 p. m.;21;Athletic de Bilbao;1;Eibar;1
+211;Liga Santander;2017-2018;5/02/2018;3:00:00 p. m.;22;Las Palmas;1;Malaga;0
+212;Liga Santander;2017-2018;4/02/2018;2:45:00 p. m.;22;Atletico de Madrid;1;Valencia;0
+213;Liga Santander;2017-2018;4/02/2018;12:30:00 p. m.;22;Girona;2;Athletic de Bilbao;0
+214;Liga Santander;2017-2018;4/02/2018;10:15:00 a. m.;22;Espanyol;1;Barcelona;1
+215;Liga Santander;2017-2018;4/02/2018;6:00:00 a. m.;22;Getafe;0;Leganes;0
+216;Liga Santander;2017-2018;3/02/2018;2:45:00 p. m.;22;Levante;2;Real Madrid;2
+217;Liga Santander;2017-2018;3/02/2018;12:30:00 p. m.;22;Alaves;2;Celta deVigo;1
+218;Liga Santander;2017-2018;3/02/2018;10:15:00 a. m.;22;Betis;2;Villareal;1
+219;Liga Santander;2017-2018;3/02/2018;7:00:00 a. m.;22;Eibar;5;Sevilla;1
+220;Liga Santander;2017-2018;2/02/2018;3:00:00 p. m.;22;Real Sociedad;5;Deportivo la Coruña;0
+221;Liga Santander;2017-2018;12/02/2018;3:00:00 p. m.;23;Deportivo la Coruña;0;Betis;1
+222;Liga Santander;2017-2018;11/02/2018;2:45:00 p. m.;23;Valencia;3;Levante;1
+223;Liga Santander;2017-2018;11/02/2018;12:30:00 p. m.;23;Celta de Vigo;2;Espanyol;2
+224;Liga Santander;2017-2018;11/02/2018;10:15:00 a. m.;23;Barcelona;0;Getafe;0
+225;Liga Santander;2017-2018;11/02/2018;6:00:00 a. m.;23;Sevilla;1;Girona;0
+226;Liga Santander;2017-2018;10/02/2018;2:45:00 p. m.;23;Real Madrid;5;Real Sociedad;2
+227;Liga Santander;2017-2018;10/02/2018;12:30:00 p. m.;23;Leganes;0;Eibar;1
+228;Liga Santander;2017-2018;10/02/2018;10:15:00 a. m.;23;Malaga;0;Atletico de Madrid;1
+229;Liga Santander;2017-2018;10/02/2018;7:00:00 a. m.;23;Villareal;1;Alaves;2
+230;Liga Santander;2017-2018;9/02/2018;3:00:00 p. m.;23;Athletic de Bilbao;0;Las Palmas;0
+231;Liga Santander;2017-2018;19/02/2018;3:00:00 p. m.;24;Getafe;3;Celta deVigo;0
+232;Liga Santander;2017-2018;18/02/2018;2:45:00 p. m.;24;Betis;3;Real Madrid;5
+233;Liga Santander;2017-2018;18/02/2018;12:30:00 p. m.;24;Espanyol;1;Villareal;1
+234;Liga Santander;2017-2018;18/02/2018;10:15:00 a. m.;24;Atletico de Madrid;2;Athletic de Bilbao;0
+235;Liga Santander;2017-2018;18/02/2018;6:00:00 a. m.;24;Real Sociedad;3;Levante;0
+236;Liga Santander;2017-2018;17/02/2018;2:45:00 p. m.;24;Malaga;1;Valencia;2
+237;Liga Santander;2017-2018;17/02/2018;12:30:00 p. m.;24;Alaves;1;Deportivo la Coruña;0
+238;Liga Santander;2017-2018;17/02/2018;10:15:00 a. m.;24;Eibar;0;Barcelona;2
+239;Liga Santander;2017-2018;17/02/2018;7:00:00 a. m.;24;Las Palmas;1;Sevilla;2
+240;Liga Santander;2017-2018;16/02/2018;3:00:00 p. m.;24;Girona;3;Leganes;0
+241;Liga Santander;2017-2018;26/02/2018;3:00:00 p. m.;25;Levante;0;Betis;2
+242;Liga Santander;2017-2018;25/02/2018;2:45:00 p. m.;25;Sevilla;2;Atletico de Madrid;5
+243;Liga Santander;2017-2018;25/02/2018;12:30:00 p. m.;25;Valencia;2;Real Sociedad;1
+244;Liga Santander;2017-2018;25/02/2018;10:15:00 a. m.;25;Athletic de Bilbao;2;Malaga;1
+245;Liga Santander;2017-2018;25/02/2018;6:00:00 a. m.;25;Villareal;1;Getafe;0
+246;Liga Santander;2017-2018;24/02/2018;2:45:00 p. m.;25;Barcelona;6;Girona;1
+247;Liga Santander;2017-2018;24/02/2018;12:30:00 p. m.;25;Leganes;0;Las Palmas;0
+248;Liga Santander;2017-2018;24/02/2018;10:15:00 a. m.;25;Real Madrid;4;Alaves;0
+249;Liga Santander;2017-2018;24/02/2018;7:00:00 a. m.;25;Celta de Vigo;2;Eibar;0
+250;Liga Santander;2017-2018;23/02/2018;3:00:00 p. m.;25;Deportivo la Coruña;0;Espanyol;0
+251;Liga Santander;2017-2018;1/03/2018;3:30:00 p. m.;26;Alaves;1;Levante;0
+252;Liga Santander;2017-2018;1/03/2018;3:00:00 p. m.;26;Las Palmas;1;Barcelona;1
+253;Liga Santander;2017-2018;1/03/2018;1:30:00 p. m.;26;Betis;0;Real Sociedad;0
+254;Liga Santander;2017-2018;28/02/2018;3:30:00 p. m.;26;Atletico de Madrid;4;Leganes;0
+255;Liga Santander;2017-2018;28/02/2018;3:30:00 p. m.;26;Eibar;1;Villareal;0
+256;Liga Santander;2017-2018;28/02/2018;1:30:00 p. m.;26;Athletic de Bilbao;1;Valencia;1
+257;Liga Santander;2017-2018;28/02/2018;1:30:00 p. m.;26;Getafe;3;Deportivo la Coruña;0
+258;Liga Santander;2017-2018;28/02/2018;1:30:00 p. m.;26;Malaga;0;Sevilla;1
+259;Liga Santander;2017-2018;27/02/2018;3:30:00 p. m.;26;Girona;1;Celta deVigo;0
+260;Liga Santander;2017-2018;27/02/2018;2:00:00 p. m.;26;Espanyol;1;Real Madrid;0
+261;Liga Santander;2017-2018;5/03/2018;3:00:00 p. m.;27;Celta de Vigo;2;Las Palmas;1
+262;Liga Santander;2017-2018;4/03/2018;2:45:00 p. m.;27;Valencia;2;Betis;0
+263;Liga Santander;2017-2018;4/03/2018;12:30:00 p. m.;27;Real Sociedad;2;Alaves;1
+264;Liga Santander;2017-2018;4/03/2018;10:15:00 a. m.;27;Barcelona;1;Atletico de Madrid;0
+265;Liga Santander;2017-2018;4/03/2018;6:00:00 a. m.;27;Levante;1;Espanyol;1
+266;Liga Santander;2017-2018;3/03/2018;2:45:00 p. m.;27;Real Madrid;3;Getafe;1
+267;Liga Santander;2017-2018;3/03/2018;12:30:00 p. m.;27;Deportivo la Coruña;1;Eibar;1
+268;Liga Santander;2017-2018;3/03/2018;12:30:00 p. m.;27;Leganes;2;Malaga;0
+269;Liga Santander;2017-2018;3/03/2018;10:15:00 a. m.;27;Sevilla;2;Athletic de Bilbao;0
+270;Liga Santander;2017-2018;3/03/2018;7:00:00 a. m.;27;Villareal;0;Girona;2
+271;Liga Santander;2017-2018;12/03/2018;3:00:00 p. m.;28;Alaves;1;Betis;3
+272;Liga Santander;2017-2018;11/03/2018;2:45:00 p. m.;28;Athletic de Bilbao;2;Leganes;0
+273;Liga Santander;2017-2018;11/03/2018;12:30:00 p. m.;28;Las Palmas;0;Villareal;2
+274;Liga Santander;2017-2018;11/03/2018;10:15:00 a. m.;28;Atletico de Madrid;3;Celta deVigo;0
+275;Liga Santander;2017-2018;11/03/2018;6:00:00 a. m.;28;Espanyol;2;Real Sociedad;1
+276;Liga Santander;2017-2018;10/03/2018;2:45:00 p. m.;28;Malaga;0;Barcelona;2
+277;Liga Santander;2017-2018;10/03/2018;12:30:00 p. m.;28;Getafe;0;Levante;1
+278;Liga Santander;2017-2018;10/03/2018;10:15:00 a. m.;28;Sevilla;0;Valencia;2
+279;Liga Santander;2017-2018;10/03/2018;7:00:00 a. m.;28;Eibar;1;Real Madrid;2
+280;Liga Santander;2017-2018;9/03/2018;3:00:00 p. m.;28;Girona;2;Deportivo la Coruña;0
+281;Liga Santander;2017-2018;18/03/2018;2:45:00 p. m.;29;Real Madrid;6;Girona;3
+282;Liga Santander;2017-2018;18/03/2018;12:30:00 p. m.;29;Celta de Vigo;0;Malaga;0
+283;Liga Santander;2017-2018;18/03/2018;12:30:00 p. m.;29;Villareal;2;Atletico de Madrid;1
+284;Liga Santander;2017-2018;18/03/2018;10:15:00 a. m.;29;Barcelona;2;Athletic de Bilbao;0
+285;Liga Santander;2017-2018;18/03/2018;6:00:00 a. m.;29;Leganes;2;Sevilla;1
+286;Liga Santander;2017-2018;17/03/2018;2:45:00 p. m.;29;Betis;3;Espanyol;0
+287;Liga Santander;2017-2018;17/03/2018;12:30:00 p. m.;29;Real Sociedad;1;Getafe;2
+288;Liga Santander;2017-2018;17/03/2018;10:15:00 a. m.;29;Valencia;3;Alaves;1
+289;Liga Santander;2017-2018;17/03/2018;7:00:00 a. m.;29;Deportivo la Coruña;1;Las Palmas;1
+290;Liga Santander;2017-2018;16/03/2018;3:00:00 p. m.;29;Levante;2;Eibar;1
+291;Liga Santander;2017-2018;2/04/2018;2:00:00 p. m.;30;Getafe;0;Betis;1
+292;Liga Santander;2017-2018;1/04/2018;1:45:00 p. m.;30;Atletico de Madrid;1;Deportivo la Coruña;0
+293;Liga Santander;2017-2018;1/04/2018;11:30:00 a. m.;30;Eibar;0;Real Sociedad;0
+294;Liga Santander;2017-2018;1/04/2018;11:30:00 a. m.;30;Malaga;1;Villareal;0
+295;Liga Santander;2017-2018;1/04/2018;9:15:00 a. m.;30;Leganes;0;Valencia;1
+296;Liga Santander;2017-2018;1/04/2018;5:00:00 a. m.;30;Espanyol;0;Alaves;0
+297;Liga Santander;2017-2018;31/03/2018;1:45:00 p. m.;30;Sevilla;2;Barcelona;2
+298;Liga Santander;2017-2018;31/03/2018;11:30:00 a. m.;30;Las Palmas;0;Real Madrid;3
+299;Liga Santander;2017-2018;31/03/2018;9:15:00 a. m.;30;Athletic de Bilbao;1;Celta deVigo;1
+300;Liga Santander;2017-2018;31/03/2018;6:00:00 a. m.;30;Girona;1;Levante;1
+301;Liga Santander;2017-2018;9/04/2018;2:00:00 p. m.;31;Villareal;1;Athletic de Bilbao;3
+302;Liga Santander;2017-2018;8/04/2018;1:45:00 p. m.;31;Valencia;1;Espanyol;0
+303;Liga Santander;2017-2018;8/04/2018;11:30:00 a. m.;31;Real Sociedad;5;Girona;0
+304;Liga Santander;2017-2018;8/04/2018;9:15:00 a. m.;31;Real Madrid;1;Atletico de Madrid;1
+305;Liga Santander;2017-2018;8/04/2018;5:00:00 a. m.;31;Levante;2;Las Palmas;1
+306;Liga Santander;2017-2018;7/04/2018;1:45:00 p. m.;31;Barcelona;3;Leganes;1
+307;Liga Santander;2017-2018;7/04/2018;11:30:00 a. m.;31;Betis;2;Eibar;0
+308;Liga Santander;2017-2018;7/04/2018;9:15:00 a. m.;31;Celta de Vigo;4;Sevilla;0
+309;Liga Santander;2017-2018;7/04/2018;6:00:00 a. m.;31;Alaves;2;Getafe;0
+310;Liga Santander;2017-2018;6/04/2018;2:00:00 p. m.;31;Deportivo la Coruña;3;Malaga;3
+311;Liga Santander;2017-2018;15/04/2018;1:45:00 p. m.;32;Malaga;1;Real Madrid;2
+312;Liga Santander;2017-2019;15/04/2018;11:30:00 a. m.;32;Getafe;1;Espanyol;0
+313;Liga Santander;2017-2020;15/04/2018;9:15:00 a. m.;32;Atletico de Madrid;3;Levante;0
+314;Liga Santander;2017-2021;15/04/2018;5:00:00 a. m.;32;Eibar;0;Alaves;1
+315;Liga Santander;2017-2022;14/04/2018;1:45:00 p. m.;32;Athletic de Bilbao;2;Deportivo la Coruña;3
+316;Liga Santander;2017-2023;14/04/2018;11:30:00 a. m.;32;Las Palmas;0;Real Sociedad;1
+317;Liga Santander;2017-2024;14/04/2018;11:30:00 a. m.;32;Leganes;1;Celta deVigo;0
+318;Liga Santander;2017-2025;14/04/2018;9:15:00 a. m.;32;Barcelona;2;Valencia;1
+319;Liga Santander;2017-2026;14/04/2018;6:00:00 a. m.;32;Sevilla;2;Villareal;2
+320;Liga Santander;2017-2027;13/04/2018;2:00:00 p. m.;32;Girona;0;Betis;1
+321;Liga Santander;2017-2028;19/04/2018;2:30:00 p. m.;33;Levante;1;Malaga;0
+322;Liga Santander;2017-2029;19/04/2018;2:30:00 p. m.;33;Betis;1;Las Palmas;0
+323;Liga Santander;2017-2030;19/04/2018;12:30:00 p. m.;33;Alaves;1;Girona;2
+324;Liga Santander;2017-2031;19/04/2018;12:30:00 p. m.;33;Real Sociedad;3;Atletico de Madrid;0
+325;Liga Santander;2017-2032;18/04/2018;2:30:00 p. m.;33;Real Madrid;1;Athletic de Bilbao;1
+326;Liga Santander;2017-2033;18/04/2018;12:30:00 p. m.;33;Espanyol;0;Eibar;1
+327;Liga Santander;2017-2034;18/04/2018;12:30:00 p. m.;33;Valencia;1;Getafe;2
+328;Liga Santander;2017-2035;17/04/2018;2:30:00 p. m.;33;Villareal;2;Leganes;1
+329;Liga Santander;2017-2036;17/04/2018;2:00:00 p. m.;33;Celta de Vigo;2;Barcelona;2
+330;Liga Santander;2017-2037;17/04/2018;12:30:00 p. m.;33;Deportivo la Coruña;0;Sevilla;0
+331;Liga Santander;2017-2038;23/04/2018;2:00:00 p. m.;34;Athletic de Bilbao;1;Levante;3
+332;Liga Santander;2017-2039;22/04/2018;1:45:00 p. m.;34;Atletico de Madrid;0;Betis;0
+333;Liga Santander;2017-2040;22/04/2018;11:30:00 a. m.;34;Las Palmas;0;Alaves;4
+334;Liga Santander;2017-2041;22/04/2018;9:15:00 a. m.;34;Malaga;2;Real Sociedad;0
+335;Liga Santander;2017-2042;22/04/2018;5:00:00 a. m.;34;Girona;0;Espanyol;2
+336;Liga Santander;2017-2043;21/04/2018;9:15:00 a. m.;34;Celta de Vigo;1;Valencia;1
+337;Liga Santander;2017-2044;21/04/2018;6:00:00 a. m.;34;Eibar;0;Getafe;1
+338;Liga Santander;2017-2045;20/04/2018;2:00:00 p. m.;34;Leganes;0;Deportivo la Coruña;0
+339;Liga Santander;2017-2046;9/05/2018;2:30:00 p. m.;34;Sevilla;3;Real Madrid;2
+340;Liga Santander;2017-2047;9/05/2018;1:00:00 p. m.;34;Barcelona;5;Villareal;1
+341;Liga Santander;2017-2048;30/04/2018;2:00:00 p. m.;35;Betis;2;Malaga;1
+342;Liga Santander;2017-2049;29/04/2018;1:45:00 p. m.;35;Deportivo la Coruña;2;Barcelona;4
+343;Liga Santander;2017-2050;29/04/2018;11:30:00 a. m.;35;Valencia;0;Eibar;0
+344;Liga Santander;2017-2051;29/04/2018;9:15:00 a. m.;35;Alaves;0;Atletico de Madrid;1
+345;Liga Santander;2017-2052;29/04/2018;5:00:00 a. m.;35;Getafe;1;Girona;1
+346;Liga Santander;2017-2053;28/04/2018;1:45:00 p. m.;35;Villareal;4;Celta deVigo;1
+347;Liga Santander;2017-2054;28/04/2018;11:30:00 a. m.;35;Real Madrid;2;Leganes;1
+348;Liga Santander;2017-2055;28/04/2018;9:15:00 a. m.;35;Real Sociedad;3;Athletic de Bilbao;1
+349;Liga Santander;2017-2056;28/04/2018;6:00:00 a. m.;35;Espanyol;1;Las Palmas;1
+350;Liga Santander;2017-2057;27/04/2018;2:00:00 p. m.;35;Levante;2;Sevilla;1
+351;Liga Santander;2017-2058;7/05/2018;2:00:00 p. m.;36;Leganes;0;Levante;3
+352;Liga Santander;2017-2059;6/05/2018;1:45:00 p. m.;36;Barcelona;2;Real Madrid;2
+353;Liga Santander;2017-2060;6/05/2018;11:30:00 a. m.;36;Las Palmas;0;Getafe;1
+354;Liga Santander;2017-2061;6/05/2018;9:15:00 a. m.;36;Atletico de Madrid;0;Espanyol;2
+355;Liga Santander;2017-2062;6/05/2018;5:00:00 a. m.;36;Malaga;0;Alaves;3
+356;Liga Santander;2017-2063;5/05/2018;1:45:00 p. m.;36;Villareal;1;Valencia;0
+357;Liga Santander;2017-2064;5/05/2018;11:30:00 a. m.;36;Celta de Vigo;1;Deportivo la Coruña;1
+358;Liga Santander;2017-2065;5/05/2018;9:15:00 a. m.;36;Athletic de Bilbao;2;Betis;0
+359;Liga Santander;2017-2066;5/05/2018;6:00:00 a. m.;36;Girona;1;Eibar;4
+360;Liga Santander;2017-2067;4/05/2018;2:00:00 p. m.;36;Sevilla;1;Real Sociedad;0
+361;Liga Santander;2017-2068;13/05/2018;1:45:00 p. m.;37;Levante;5;Barcelona;4
+362;Liga Santander;2017-2069;13/05/2018;9:15:00 a. m.;37;Espanyol;4;Malaga;1
+363;Liga Santander;2017-2070;12/05/2018;1:45:00 p. m.;37;Real Madrid;6;Celta deVigo;9
+364;Liga Santander;2017-2071;12/05/2018;11:30:00 a. m.;37;Alaves;3;Athletic de Bilbao;1
+365;Liga Santander;2017-2072;12/05/2018;11:30:00 a. m.;37;Deportivo la Coruña;2;Villareal;4
+366;Liga Santander;2017-2073;12/05/2018;11:30:00 a. m.;37;Eibar;1;Las Palmas;0
+367;Liga Santander;2017-2074;12/05/2018;11:30:00 a. m.;37;Getafe;0;Atletico de Madrid;1
+368;Liga Santander;2017-2075;12/05/2018;11:30:00 a. m.;37;Girona;0;Valencia;1
+369;Liga Santander;2017-2076;12/05/2018;11:30:00 a. m.;37;Betis;2;Sevilla;2
+370;Liga Santander;2017-2077;12/05/2018;9:15:00 a. m.;37;Real Sociedad;3;Leganes;2
+371;Liga Santander;2017-2078;20/05/2018;1:45:00 p. m.;38;Barcelona;1;Real Sociedad;0
+372;Liga Santander;2017-2079;20/05/2018;11:30:00 a. m.;38;Atletico de Madrid;2;Eibar;2
+373;Liga Santander;2017-2080;20/05/2018;9:15:00 a. m.;38;Athletic de Bilbao;0;Espanyol;1
+374;Liga Santander;2017-2081;20/05/2018;5:00:00 a. m.;38;Valencia;2;Deportivo la Coruña;1
+375;Liga Santander;2017-2082;19/05/2018;1:45:00 p. m.;38;Villareal;2;Real Madrid;2
+376;Liga Santander;2017-2083;19/05/2018;11:30:00 a. m.;38;Las Palmas;1;Girona;2
+377;Liga Santander;2017-2084;19/05/2018;11:30:00 a. m.;38;Malaga;0;Getafe;1
+378;Liga Santander;2017-2085;19/05/2018;11:30:00 a. m.;38;Sevilla;1;Alaves;0
+379;Liga Santander;2017-2086;19/05/2018;9:15:00 a. m.;38;Leganes;3;Betis;2
+380;Liga Santander;2017-2087;19/05/2018;6:00:00 a. m.;38;Celta de Vigo;4;Levante;2
