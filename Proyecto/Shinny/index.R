@@ -42,19 +42,7 @@ ui <- pageWithSidebar(
           #Input 2: radioBox para inclusion
           radioButtons("locVis",
                        "Campo:",
-                       campo),
-          
-          #Input 3: chooseSliderSkin para grados centigrados
-          chooseSliderSkin("Modern"),
-          sliderInput("clima", "Temperatura en C°:",
-                      min = -5, max = 38, value = c(20, 30)
-          ),
-          
-          #Input 5: chooseSliderSkin para altura
-          chooseSliderSkin("Modern"),
-          sliderInput("altura", "Altura en m°:",
-                      min = -5, max = 38, value = c(20, 30)
-          )
+                       campo)
         ),     
         
         #Crear mainPanel que visualiza resultados
@@ -99,8 +87,6 @@ server <- function (input, output){
   
   #as.formula(formulaTexto())
   output$futPlot <- renderPlot({
-    rangoGrados <- c(input$clima)
-    rangoAltura <- c(input$altura)
     if(input$locVis == "Victoria"){
       condicion <- df[,8]>df[,10]
     }else if(input$locVis == "Derrota"){
@@ -109,11 +95,8 @@ server <- function (input, output){
     }else{
       condicion <- df[,8]==df[,10]
     }
-    condicionClima <- df[,11] >=rangoGrados[1] & df[,11] <=rangoGrados[2]
-    condicionAltura <- df[,12] >=rangoAltura[1] & df[,12] <=rangoAltura[2]
     
-      dataFrameGanadorLocal <-df[df[,7]==input$equ & condicionClima &
-                                   condicionAltura,
+      dataFrameGanadorLocal <-df[df[,7]==input$equ,
                                  c("Goles.Equipo.Local",
                                    "Goles.Equipo.Visitante",
                                    "Clima","Altura")]
@@ -157,13 +140,27 @@ server <- function (input, output){
                             c("Equipo.Local","Goles.Equipo.Local",
                               "Goles.Equipo.Visitante","Equipo.Visitante")]
     #Se obtiene la frecuencia de equipos locales ganadores
-      barplot(table(dfResultadoVictoria$Equipo.Local), 
-              table(dfResultadoVictoria$Equipo.Visitante),
+    frecuencia <-data.frame(
+      Equipo=table(dfResultadoVictoria$Equipo.Local))
+    cantVictoria <-frecuencia$Equipo.Freq
+    
+    frecuencia <-data.frame(
+      Equipo=table(dfResultadoEmpate$Equipo.Local))
+    cantEmpate <-frecuencia$Equipo.Freq
+    
+    frecuencia <-data.frame(
+      Equipo=table(dfResultadoDerrota$Equipo.Local))
+    cantDerrota <-frecuencia$Equipo.Freq
+    
+    mydf <- data.frame( Resultados=c(cantVictoria,cantEmpate,cantDerrota))
+      barplot(as.matrix(mydf),
+           beside=TRUE,
            horiz = F,
-           col=c("orange","blue"),
+           col=c("green","orange","red"),
            width = 0.5,
            ylab = "Frecuencia",
-           main="Ganancia durante la temporada equipo Local")     
+           main="Ganancia durante la temporada equipo Local")  
+      
     
     
   })
