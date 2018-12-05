@@ -9,25 +9,31 @@ library(shinyWidgets)
 #mpgData <- mtcars
 #mpgdataSam <- factor (mpgDataSam, labels = c("Automatico", "Manual"))
 
-setwd("~/Diplomado/Proyecto/DataSets")
+setwd("~/Diplomado/Proyecto/DataSets/Final")
 #Se obtiene la data respectiva
-resultados <-read.csv("LigaSantander_2017-test.csv",sep = ",",stringsAsFactors = F)
+resultados <-read.csv("LigaSantander_2017.csv",sep = ",",stringsAsFactors = F)
+resultadosCiudad <-read.csv("Equipo_Ciudad.csv",sep = ",",stringsAsFactors = F)
+equiposLigas <-read.csv("Equipo_Liga.csv",sep = ",",stringsAsFactors = F)
+resultadosClima <-read.csv("Clima.csv",sep = ",",stringsAsFactors = F)
+resultadosClimaCiudad <-read.csv("Clima_Ciudad.csv",sep = ",",stringsAsFactors = F)
+
 
 #Se crea el dataFrame
 df <-data.frame(resultados)
 equiposDist <-unique(df$Equipo.Local)
 equiposDist <-equiposDist[order(equiposDist,decreasing=F)]
 
+dataFrameGanadorLocal <-df
 
 
-campo <-c("Victoria","Derrota","Empate")
+campo <-c("Local","Visitante","Local + Visitante")
 
 #Se crea el vector de ligas
-ligas <- c("Santander","Bundesliga","Premier League","Serie A","Premier de rusia")
+ligas <- c("Liga Española","Bundesliga","Premier League")
 ligas <-ligas[order(ligas,decreasing=F)]
 
 #Interfaz Usuario
-ui <- pageWithSidebar(
+ui <- fluidPage(
         #Titulo de la App
         headerPanel("Analisis de Futbol Soccer"),
         
@@ -47,7 +53,18 @@ ui <- pageWithSidebar(
                        "Campo:",
                        campo),
           
-          downloadButton("report", "Generate report")
+          #Input 3: chooseSliderSkin para grados centigrados
+          chooseSliderSkin("Modern"),
+          sliderInput("clima", "Temperatura en C°:",
+                      min = -5, max = 38, value = c(20, 30)
+          ),
+          
+          #Input 5: chooseSliderSkin para altura
+          chooseSliderSkin("Modern"),
+          sliderInput("altura", "Altura en m°:",
+                      min = 30, max = 550, value = c(210, 320)
+          ),
+          actionButton("preview", "Obtener consolidado")
         ),     
         
         #Crear mainPanel que visualiza resultados
@@ -70,18 +87,18 @@ ui <- pageWithSidebar(
 
 #Logica del servidor
 
-server <- function (input, output){
-  
-  output$report = downloadHandler(
-    filename = 'myreport.pdf',
+server <- function (input, output, session){
+  observe({
+    dfEquipoLoga <- data.frame(equiposLigas)
+    dfLiga <-dfEquipoLoga[dfEquipoLoga[,1] == input$league,c("NombreEquipo")]
+    equiposSelecLiga <-unique(dfLiga)
+    equiposSelecLiga <-equiposSelecLiga[order(equiposSelecLiga,decreasing=F)]
+    updateSelectInput(session, "equ",
+                      label = paste("Seleccione liga", length(equiposSelecLiga)),
+                      choices = equiposSelecLiga,
+                      selected = tail(equiposSelecLiga, 1))
     
-    content = function(file) {
-      out = knit2pdf('input.Rnw', clean = TRUE)
-      file.rename(out, file) # move pdf to file for downloading
-    },
-    
-    contentType = 'application/pdf'
-  )
+  })
   
   
   # Obtener información de los input y mostrar graficas en main
@@ -106,28 +123,42 @@ server <- function (input, output){
   
   #as.formula(formulaTexto())
   output$futPlot <- renderPlot({
-    if(input$locVis == "Victoria"){
-      condicion <- df[,8]>df[,10]
-    }else if(input$locVis == "Derrota"){
-      condicion <- df[,8]<df[,10]
-      
-    }else{
-      condicion <- df[,8]==df[,10]
-    }
+    rangoGrados <- c(input$clima)
+    rangoAltura <- c(input$altura)
     
-      dataFrameGanadorLocal <-df[df[,7]==input$equ,
-                                 c("Goles.Equipo.Local",
-                                   "Goles.Equipo.Visitante",
-                                   "Clima","Altura")]
+    if(input$locVis == "Local"){
+      condicion <- df[,6]==input$equ
+    }else if(input$locVis == "Visitante"){
+      condicion <- df[,8]==input$equ
+    }else{
+    }
+    condicionClima <- df[,10] >=rangoGrados[1] & df[,10] <=rangoGrados[2]
+    condicionAltura <- df[,11] >=rangoAltura[1] & df[,11] <=rangoAltura[2]
+    dataFrameGanadorLocal <-df[condicion  & condicionClima &
+                                 condicionAltura,
+                               c("Equipo.Local",
+                                 "Equipo.Visitante",
+                                 "Goles.Equipo.Local",
+                                 "Goles.Equipo.Visitante",
+                                 "Temperatura","Altitud")]
+      
+      if(input$locVis == "Local"){
+        equipoSeleccionado <- dataFrameGanadorLocal$Equipo.Local
+      }else if(input$locVis == "Visitante"){
+        equipoSeleccionado <- dataFrameGanadorLocal$Equipo.Visitante
+      }else{
+      }
       
       #Se obtiene la frecuencia de equipos locales ganadores
       frecuenciaGananciaLocal <-data.frame(
-        Equipo=table(dataFrameGanadorLocal$Equipo.Local))
+        Equipo=table(equipoSeleccionado))
+      sumaGoles <-sum(dataFrameGanadorLocal$Goles.Equipo.Local)
+      cat(sumaGoles)
       if(!is.null(frecuenciaGananciaLocal)){
         ggplot(dataFrameGanadorLocal,
-               aes(x = Clima,y = Goles.Equipo.Local,
+               aes(x = Temperatura,y = Goles.Equipo.Local,
                    size=Goles.Equipo.Local,
-                   color=Clima))+geom_point()   
+                   color=Temperatura))+geom_point()  
       }
       else{
         cat("FALLA")
@@ -136,75 +167,94 @@ server <- function (input, output){
   
   #as.formula(formulaTexto())
   output$resultados <- renderPlot({
-    if(input$locVis == "Victoria"){
-      condicion <- df[,8]>df[,10]
-    }else if(input$locVis == "Derrota"){
-      condicion <- df[,8]<df[,10]
-      
-    }else{
-      condicion <- df[,8]==df[,10]
-    }
-    condicion <- df[,8]>df[,10]
-    dfResultadoVictoria <-df[condicion & df[,7]==input$equ,
+    condicionEmpate <- df[,7]==df[,9]
+    rangoGrados <- c(input$clima)
+    rangoAltura <- c(input$altura)
+    if(input$locVis == "Local"){
+      equipoSelec <- df[,6]==input$equ
+      condicionVictoria <- df[,7]>df[,9]
+      condicionDerrota <- df[,7]<df[,9]
+    }else if(input$locVis == "Visitante"){
+      equipoSelec <- df[,8]==input$equ
+      condicionVictoria <- df[,9]>df[,7]
+      condicionDerrota <- df[,9]<df[,7]
+    }    
+    condicionClima <- df[,10] >=rangoGrados[1] & df[,10] <=rangoGrados[2]
+    condicionAltura <- df[,11] >=rangoAltura[1] & df[,11] <=rangoAltura[2]  
+    dfResultadoVictoria <-df[condicionVictoria & equipoSelec & condicionClima &
+                               condicionAltura,
                             c("Equipo.Local","Goles.Equipo.Local",
                               "Goles.Equipo.Visitante","Equipo.Visitante")]
     
-    condicion <- df[,8]==df[,10]
-    dfResultadoEmpate <-df[condicion & df[,7]==input$equ,
+
+    dfResultadoEmpate <-df[condicionEmpate & equipoSelec & condicionClima &
+                             condicionAltura,
                             c("Equipo.Local","Goles.Equipo.Local",
                               "Goles.Equipo.Visitante","Equipo.Visitante")]
-    condicion <- df[,8]<df[,10]
-    dfResultadoDerrota <-df[condicion & df[,7]==input$equ,
+    
+    dfResultadoDerrota <-df[condicionDerrota & equipoSelec & condicionClima &
+                              condicionAltura,
                             c("Equipo.Local","Goles.Equipo.Local",
                               "Goles.Equipo.Visitante","Equipo.Visitante")]
     #Se obtiene la frecuencia de equipos locales ganadores
+    if(input$locVis == "Local"){
+      resultadoDfV <- dfResultadoVictoria$Equipo.Local
+      resultadoDfE <- dfResultadoEmpate$Equipo.Local
+      resultadoDfD <- dfResultadoDerrota$Equipo.Local
+    }else if(input$locVis == "Visitante"){
+      resultadoDfV <- dfResultadoVictoria$Equipo.Visitante
+      resultadoDfE <- dfResultadoEmpate$Equipo.Visitante
+      resultadoDfD <- dfResultadoDerrota$Equipo.Visitante
+    } 
     frecuencia <-data.frame(
-      Equipo=table(dfResultadoVictoria$Equipo.Local))
+      Equipo=table(resultadoDfV))
     cantVictoria <-frecuencia$Equipo.Freq
     
     frecuencia <-data.frame(
-      Equipo=table(dfResultadoEmpate$Equipo.Local))
+      Equipo=table(resultadoDfE))
     cantEmpate <-frecuencia$Equipo.Freq
     
     frecuencia <-data.frame(
-      Equipo=table(dfResultadoDerrota$Equipo.Local))
+      Equipo=table(resultadoDfD))
     cantDerrota <-frecuencia$Equipo.Freq
     
     mydf <- data.frame( Resultados=c(cantVictoria,cantEmpate,cantDerrota))
       barplot(as.matrix(mydf),
            beside=TRUE,
            horiz = F,
-           col=c("green","orange","red"),
-           width = 0.5,
+           col=c("darkblue","orange","red"),
+           width = 0.2,
            ylab = "Frecuencia",
-           main="Ganancia durante la temporada equipo Local")  
+           main="Consolidado de resultados") 
       
-    
-    
-  })
+      sumaGoles <-sum(dataFrameGanadorLocal$Goles.Equipo.Local)
+      cat(paste ("Goles anotados</br>",sumaGoles,
+                 "Goles recibidos</br>
+                 Partidos ganados</br>",cantVictoria,
+                 "Partidos perdidos</br>",cantDerrota,
+                 "Partidos empatados</br>",cantEmpate,
+                 "Rendimiento total en %", 
+                 input$equ,sep = " ", 
+                 collapse = NULL))
+      })
   
-  output$downloadReport <- downloadHandler(
-    # For PDF output, change this to "report.pdf"
-    filename = "report.pdf",
-    content = function(file) {
-      # Copy the report file to a temporary directory before processing it, in
-      # case we don't have write permissions to the current working dir (which
-      # can happen when deployed).
-      tempReport <- file.path(tempdir(), "report.Rmd")
-      file.copy("report.Rmd", tempReport, overwrite = TRUE)
-      
-      # Set up parameters to pass to Rmd document
-      params <- list(n = input$slider)
-      
-      # Knit the document, passing in the `params` list, and eval it in a
-      # child of the global environment (this isolates the code in the document
-      # from the code in this app).
-      rmarkdown::render(tempReport, output_file = file,
-                        params = params,
-                        envir = new.env(parent = globalenv())
+  
+  
+  observeEvent(input$preview, {
+    showModal(modalDialog(
+      title = paste ("Estadisticas de ", input$equ,sep = " ", collapse = NULL),
+      respuesta <-paste ("Goles anotados</br>
+                         Goles recibidos</br>cantEmpate
+                         Partidos ganados</br>
+                         Partidos perdidos</br>
+                         Partidos empatados</br>
+                         Rendimiento total en %", 
+                         input$equ,sep = " ", 
+                         collapse = NULL),
+      HTML(respuesta
       )
-    }
-  )
+    ))
+  })
   
 }
 
