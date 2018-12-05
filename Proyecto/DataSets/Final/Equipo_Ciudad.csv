@@ -1,0 +1,140 @@
+ID_Equipo,NombreEquipo,ID_Ciudad
+1,Real Madrid,1
+2,Barcelona,2
+3,Atlético de Madrid,1
+4,Sevilla,3
+5,Villareal,4
+6,Real Sociedad,5
+7,Athletic de Bilbao,6
+8,Espanyol,2
+9,Alavés,7
+10,Eibar,8
+11,Málaga,9
+12,Valencia,10
+13,Celta de Vigo,11
+14,Las Palmas,12
+15,Real Betis,3
+16,Deportivo la Coruña,13
+17,Leganés,14
+18,Sporting de Gijón,15
+19,Osasuna,16
+20,Granada,17
+21,Getafe,18
+22,Girona,19
+23,Levante,10
+24,Rayo Vallecano,1
+25,Elche,20
+26,Almeria,21
+27,Cordoba,22
+28,Sabadell,23
+29,Real Zaragosa,24
+30,Burgos FC,25
+31,Club Deportivo Castellon ,26
+32,Real Oviedo,27
+33,Racing de Santander,28
+34,Real Murcia Club de Fútbol,29
+35,Hércules de Alicante Club de Fútbol,30
+36,Unión Deportiva Salamanca,31
+37,Cádiz Club de Fútbol,32
+38,Recreativo de Huelva,33
+39,Real Valladolid,34
+40,Deportivo Mallorca,35
+41,Club Deportivo Logroñés,36
+42,Club Deportivo Tenerife,37
+43,Albacete,38
+44,Unió Esportiva Lleida,39
+45,Sociedad Deportiva Compostela,13
+46,Mérida Asociación Deportiva,40
+47,Club de Fútbol Extremadura,41
+48,Club Deportivo Numancia de Soria,42
+49,Gimnastic de Tarragona,43
+50,Xerez Club Deportivo,44
+51,Bayern de Múnich,45
+52,Borussia Dortmund,46
+53,MSV Duisburg,47
+54,FC Köln,48
+55,Hamburger SV,49
+56,RB Leipzig,50
+57,Borussia Mönchengladbach,51
+58,SG Wattenscheid 09,52
+59,Werder Bremen,53
+60,Dinamo Dresde,54
+61,Eintracht Fráncfort,55
+62,SC Friburgo,56
+63,1. FC Kaiserslautern,57
+64,Karlsruher SC,58
+65,Bayer 04 Leverkusen,59
+66,F. C. Núremberg,60
+67,FC Schalke 04,61
+68,VfB Stuttgart,62
+69,KFC Uerdingen 05,63
+70,VfL Bochum,52
+71,TSV 1860 Múnich,45
+72,FC Hansa Rostock,64
+73,FC St. Pauli,49
+74,Fortuna Düsseldorf,65
+75,Arminia Bielefeld,66
+76,Hertha Berlín,67
+77,VfL Wolfsburg,68
+78,SSV Ulm 1846 ,69
+79,SpVgg Unterhaching,45
+80,Energie Cottbus,70
+81,Hannover 96,71
+82,1. FSV Mainz 05,72
+83,Alemannia Aquisgrán,73
+84,TSG 1899 Hoffenheim,74
+85,F. C. Augsburgo,75
+86,Spielvereinigung Greuther Fürth,76
+87,Eintracht Braunschweig,77
+88,SC Paderborn 07,78
+89,SV Darmstadt 98,79
+90,FC Ingolstadt 04,80
+91,Arsenal,81
+92,Aston Villa,82
+93,Chelsea,81
+94,Liverpool,83
+95,Manchester City,84
+96,Newcastle United,85
+97,Oldham Athletic,86
+98,Sheffield United,87
+99,Southampton ,88
+100,West Ham,81
+101,Norwich City,89
+102,Tottenham Hotspur,81
+103,Everton,83
+104,Ipswich Town,90
+105,Leeds United,91
+106,AFC Wimbledon,81
+107,Blackburn Rovers ,92
+108,Coventry City,93
+109,Manchester United ,84
+110,Queens Park Rangers,81
+111,Sheffield Wednesday ,91
+112,Swindon Town ,94
+113,Crystal Palace ,81
+114,Leicester City ,95
+115,Nottingham Fores,96
+116,Bolton Wanderers ,84
+117,Middlesbrough ,97
+118,Derby County ,98
+119,Sunderland Association,99
+120,Barnsley Football Club,91
+121,Charlton Athletic ,81
+122,Watford Football Club,100
+123,Bradford City Association,91
+124,Fulham,81
+125,Birmingham City ,101
+127,West Bromwich,102
+128,Portsmouth Football Club,103
+129,Wolverhampton Wanderers,104
+130,Wigan Athletic,105
+131,Reading Football Club,106
+132,Hull City,91
+133,Stoke City ,107
+134,Burnley Football Club,108
+135,Blackpool Football Club,109
+136,Swansea City ,110
+137,Cardiff City,111
+138,Athletic Football Club Bournemouth,112
+139,Brighton & Hove,113
+140,Huddersfield Town ,114

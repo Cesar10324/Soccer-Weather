@@ -1,0 +1,114 @@
+ID_Ciudad,Pais,Nombre Ciudad,Clima Promedio,Unidad Clima,Altitud,Unidad Altitud
+1,España,Madrid,15,Centigrados,657,msnm
+2,España,Barcelona,18,Centigrados,13,msnm
+3,España,Sevilla,19.2,Centigrados,11,msnm
+4,España,Villareal,17,Centigrados,42,msnm
+5,España,San Sebastian,15,Centigrados,7,msnm
+6,España,Bilbao,16,Centigrados,6,msnm
+7,España,Vitoria,17.1,Centigrados,539,msnm
+8,España,Eibar,21,Centigrados,121,msnm
+9,España,Malaga,18.5,Centigrados,8,msnm
+10,España,Valencia,18.4,Centigrados,16,msnm
+11,España,Vigo,14,Centigrados,62,msnm
+12,España,Las Palmas,22,Centigrados,6,msnm
+13,España,La Coruña,14.8,Centigrados,21,msnm
+14,España,Leganes,15,Centigrados,666,msnm
+15,España,Gijón,13.8,Centigrados,3,msnm
+16,España,Pamplona,12.9,Centigrados,450,msnm
+17,España,Granada,15.7,Centigrados,684,msnm
+18,España,Getafe,15,Centigrados,622,msnm
+19,España,Girona,14.7,Centigrados,69,msnm
+20,España,Elche,17.9,Centigrados,86,msnm
+21,España,Almería,19.1,Centigrados,16,msnm
+22,España,Cordoba,18.2,Centigrados,106,msnm
+23,España,Sabadell,16,Centigrados,253,msnm
+24,España,Zaragosa,15.5,Centigrados,208,msnm
+25,España,Burgos,10.7,Centigrados,859,msnm
+26,España,Castellón de la Plana,17.5,Centigrados,27,msnm
+27,España,Oviedo,13.3,Centigrados,231,msnm
+28,España,Santander,14.5,Centigrados,8,msnm
+29,España,Murcia,18.4,Centigrados,42,msnm
+30,España,Alicante,18.3,Centigrados,5,msnm
+31,España,Salamanca,12.2,Centigrados,798,msnm
+32,España,Cadiz,18.6,Centigrados,13,msnm
+33,España,Huelva,18.2,Centigrados,24,msnm
+34,España,Valladolid,6.6,Centigrados,690,msnm
+35,España,Palma,18.2,Centigrados,24,msnm
+36,España,Logroño,13.9,Centigrados,384,msnm
+37,España,Santa Cruz de Tenerife,21.5,Centigrados,1,msnm
+38,España,Albacete,14.3,Centigrados,681,msnm
+39,España,Lérida,15,Centigrados,167,msnm
+40,España,Merida,16.5,Centigrados,224,msnm
+41,España,Almendralejo,14.6,Centigrados,337,msnm
+42,España,Soria,11,Centigrados,1061,msnm
+43,España,Cataluña,13.4,Centigrados,357,msnm
+44,España,Jerez de la Frontera,18.1,Centigrados,56,msnm
+45,Alemania,Múnich,7.78,Centigrados,519,msnm
+46,Alemania,Dortmund,9.5,Centigrados,86,msnm
+47,Alemania,Duisburgo,12,Centigrados,33,msnm
+48,Alemania,Köln,10.3,Centigrados,37,msnm
+49,Alemania,Hamburg,9.4,Centigrados,6,msnm
+50,Alemania,Leipzig,9.45,Centigrados,113,msnm
+51,Alemania,Mönchengladbach,7.75,Centigrados,70,msnm
+52,Alemania,Bochum,8.39,Centigrados,104,msnm
+53,Alemania,Bremen,12.3,Centigrados,12,msnm
+54,Alemania,Dresde,9.37,Centigrados,112,msnm
+55,Alemania,Fráncfort del Meno,10.6,Centigrados,112,msnm
+56,Alemania,Friburg de Brisgovia,10.8,Centigrados,278,msnm
+57,Alemania,Kaiserslautern,8.9,Centigrados,245,msnm
+58,Alemania,Karlsruhe,10.7,Centigrados,115,msnm
+59,Alemania,Leverkusen,10.1,Centigrados,60,msnm
+60,Alemania,Núremberg,9,Centigrados,302,msnm
+61,Alemania,Gelsenkirchen,9.9,Centigrados,110,msnm
+62,Alemania,Stuttgart,11.4,Centigrados,245,msnm
+63,Alemania,Krefeld,10.1,Centigrados,38,msnm
+64,Alemania,Rostock,17.1,Centigrados,13,msnm
+65,Alemania,Düsseldorf,10.2,Centigrados,38,msnm
+66,Alemania,Bielefeld,8.9,Centigrados,118,msnm
+67,Alemania,Berlín,9.6,Centigrados,34,msnm
+68,Alemania,Wolfsburgo,8.8,Centigrados,63,msnm
+69,Alemania,Ulm,8.3,Centigrados,478,msnm
+70,Alemania,Cottbus,9.2,Centigrados,75,msnm
+71,Alemania,Hannover,8.8,Centigrados,55,msnm
+72,Alemania,Maguncia ,9.8,Centigrados,88,msnm
+73,Alemania,Aquisgrán,10.4,Centigrados,156,msnm
+74,Alemania,Hoffenheim,10.2,Centigrados,150,msnm
+75,Alemania,Augsburg ,8.3,Centigrados,500,msnm
+76,Alemania,Fürth,9,Centigrados,295,msnm
+77,Alemania,Brunswick,16.6,Centigrados,75,msnm
+78,Alemania,Paderborn,9.1,Centigrados,75,msnm
+79,Alemania,Darmstadt,9.5,Centigrados,144,msnm
+80,Alemania,Ingolstadt,8.4,Centigrados,375,msnm
+81,Inglaterra,Londres,11.3,Centigrados,35,msnm
+82,Inglaterra,Birmingham,9.5,Centigrados,140,msnm
+83,Inglaterra,Liverpool,10.1,Centigrados,70,msnm
+84,Inglaterra,Manchester,10.05,Centigrados,38,msnm
+85,Inglaterra,Newcastle ,9.2,Centigrados,30,msnm
+86,Inglaterra,Oldham,6.7,Centigrados,213,msnm
+87,Inglaterra,Sheffield,10,Centigrados,75,msnm
+88,Inglaterra,Southampton ,10.6,Centigrados,19,msnm
+89,Inglaterra,Norwich,10.2,Centigrados,19,msnm
+90,Inglaterra,Ipswich,20.1,Centigrados,29,msnm
+91,Inglaterra,Yorkshire ,12.9,Centigrados,87,msnm
+92,Inglaterra,Blackburn,9,Centigrados,167,msnm
+93,Inglaterra,Coventry,9.9,Centigrados,94,msnm
+94,Inglaterra,Swindon,9.4,Centigrados,107,msnm
+95,Inglaterra,Leicester,9.7,Centigrados,67,msnm
+96,Inglaterra,Nottingham,9.8,Centigrados,61,msnm
+97,Inglaterra,Middlesbrough ,9.1,Centigrados,15,msnm
+98,Inglaterra,Derby,9.7,Centigrados,55,msnm
+99,Inglaterra,Sunderland,8.8,Centigrados,232,msnm
+100,Inglaterra,Watford,9.9,Centigrados,71,msnm
+101,Inglaterra,Birmingham,9.2,Centigrados,140,msnm
+102,Inglaterra,Bromwich,9,Centigrados,163,msnm
+103,Inglaterra,Hampshire,8.5,Centigrados,77,msnm
+104,Inglaterra,Wolverhampton,8.9,Centigrados,163,msnm
+105,Inglaterra,Wigan,9.4,Centigrados,43,msnm
+106,Inglaterra,Reading,9.9,Centigrados,61,msnm
+107,Inglaterra,Staffordshire,13.2,Centigrados,87,msnm
+108,Inglaterra,Lancashire,10.5,Centigrados,85,msnm
+109,Inglaterra,Swansea,17.3,Centigrados,43,msnm
+110,Inglaterra,Cardiff,10.3,Centigrados,17,msnm
+111,Inglaterra,Bournemouth,9.6,Centigrados,19,msnm
+112,Inglaterra,Brighton & Hove ,10.6,Centigrados,22,msnm
+113,Inglaterra,Huddersfield ,9.6,Centigrados,126,msnm
