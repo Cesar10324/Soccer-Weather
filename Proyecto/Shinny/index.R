@@ -26,7 +26,7 @@ equiposDist <-equiposDist[order(equiposDist,decreasing=F)]
 dataFrameGanadorLocal <-df
 
 
-campo <-c("Local","Visitante","Local + Visitante")
+campo <-c("Local","Visitante")
 
 #Se crea el vector de ligas
 ligas <- c("Liga Española","Bundesliga","Premier League")
@@ -130,7 +130,6 @@ server <- function (input, output, session){
       condicion <- df[,6]==input$equ
     }else if(input$locVis == "Visitante"){
       condicion <- df[,8]==input$equ
-    }else{
     }
     condicionClima <- df[,10] >=rangoGrados[1] & df[,10] <=rangoGrados[2]
     condicionAltura <- df[,11] >=rangoAltura[1] & df[,11] <=rangoAltura[2]
@@ -146,19 +145,17 @@ server <- function (input, output, session){
         equipoSeleccionado <- dataFrameGanadorLocal$Equipo.Local
       }else if(input$locVis == "Visitante"){
         equipoSeleccionado <- dataFrameGanadorLocal$Equipo.Visitante
-      }else{
       }
       
       #Se obtiene la frecuencia de equipos locales ganadores
       frecuenciaGananciaLocal <-data.frame(
         Equipo=table(equipoSeleccionado))
       sumaGoles <-sum(dataFrameGanadorLocal$Goles.Equipo.Local)
-      cat(sumaGoles)
       if(!is.null(frecuenciaGananciaLocal)){
         ggplot(dataFrameGanadorLocal,
                aes(x = Temperatura,y = Goles.Equipo.Local,
                    size=Goles.Equipo.Local,
-                   color=Temperatura))+geom_point()  
+                   color=Temperatura))+geom_point() +labs(y = "Goles a favor",size = "Goles a favor")
       }
       else{
         cat("FALLA")
@@ -223,35 +220,107 @@ server <- function (input, output, session){
            beside=TRUE,
            horiz = F,
            col=c("darkblue","orange","red"),
+           names.arg=c("Victorias", "Empates" , "Derrotas"), 
            width = 0.2,
            ylab = "Frecuencia",
            main="Consolidado de resultados") 
       
       sumaGoles <-sum(dataFrameGanadorLocal$Goles.Equipo.Local)
-      cat(paste ("Goles anotados</br>",sumaGoles,
-                 "Goles recibidos</br>
-                 Partidos ganados</br>",cantVictoria,
-                 "Partidos perdidos</br>",cantDerrota,
-                 "Partidos empatados</br>",cantEmpate,
-                 "Rendimiento total en %", 
-                 input$equ,sep = " ", 
-                 collapse = NULL))
       })
   
   
   
+  
+  
+  
   observeEvent(input$preview, {
+    rangoGrados <- c(input$clima)
+    rangoAltura <- c(input$altura)
+    
+    condicionEmpate <- df[,7]==df[,9]
+    if(input$locVis == "Local"){
+      equipoSelec <- df[,6]==input$equ
+      condicion <- df[,6]==input$equ
+      condicionVictoria <- df[,7]>df[,9]
+      condicionDerrota <- df[,7]<df[,9]
+    }else if(input$locVis == "Visitante"){
+      equipoSelec <- df[,8]==input$equ
+      condicion <- df[,8]==input$equ
+      condicionVictoria <- df[,9]>df[,7]
+      condicionDerrota <- df[,9]<df[,7]
+    }
+    condicionClima <- df[,10] >=rangoGrados[1] & df[,10] <=rangoGrados[2]
+    condicionAltura <- df[,11] >=rangoAltura[1] & df[,11] <=rangoAltura[2]
+    dataFrameGanadorLocal <-df[condicion  & condicionClima &
+                                 condicionAltura,
+                               c("Equipo.Local",
+                                 "Equipo.Visitante",
+                                 "Goles.Equipo.Local",
+                                 "Goles.Equipo.Visitante",
+                                 "Temperatura","Altitud")]
+    
+    dfResultadoVictoria <-df[condicionVictoria & equipoSelec & condicionClima &
+                               condicionAltura,
+                             c("Equipo.Local","Goles.Equipo.Local",
+                               "Goles.Equipo.Visitante","Equipo.Visitante")]
+    
+    
+    dfResultadoEmpate <-df[condicionEmpate & equipoSelec & condicionClima &
+                             condicionAltura,
+                           c("Equipo.Local","Goles.Equipo.Local",
+                             "Goles.Equipo.Visitante","Equipo.Visitante")]
+    
+    dfResultadoDerrota <-df[condicionDerrota & equipoSelec & condicionClima &
+                              condicionAltura,
+                            c("Equipo.Local","Goles.Equipo.Local",
+                              "Goles.Equipo.Visitante","Equipo.Visitante")]   
+    #Se obtiene la frecuencia de equipos locales ganadores
+
+    if(input$locVis == "Local"){
+      equipoSeleccionado <- dataFrameGanadorLocal$Equipo.Local
+      sumaGolesFavor <-sum(dataFrameGanadorLocal$Goles.Equipo.Local)
+      sumaGolesContra <-sum(dataFrameGanadorLocal$Goles.Equipo.Visitante)
+      resultadoDfV <- dfResultadoVictoria$Equipo.Local
+      resultadoDfE <- dfResultadoEmpate$Equipo.Local
+      resultadoDfD <- dfResultadoDerrota$Equipo.Local
+    }else if(input$locVis == "Visitante"){
+      equipoSeleccionado <- dataFrameGanadorLocal$Equipo.Visitante
+      sumaGolesFavor <-sum(dataFrameGanadorLocal$Goles.Equipo.Visitante)
+      sumaGolesContra <-sum(dataFrameGanadorLocal$Goles.Equipo.Local)
+      resultadoDfV <- dfResultadoVictoria$Equipo.Visitante
+      resultadoDfE <- dfResultadoEmpate$Equipo.Visitante
+      resultadoDfD <- dfResultadoDerrota$Equipo.Visitante
+    }
+    frecuencia <-data.frame(
+      Equipo=table(resultadoDfV))
+    cantVictoria <-frecuencia$Equipo.Freq
+    
+    frecuencia <-data.frame(
+      Equipo=table(resultadoDfE))
+    cantEmpate <-frecuencia$Equipo.Freq
+    
+    frecuencia <-data.frame(
+      Equipo=table(resultadoDfD))
+    cantDerrota <-frecuencia$Equipo.Freq
+    
+    #Se obtiene la frecuencia de equipos locales ganadores
+    frecuenciaGananciaLocal <-data.frame(
+      Equipo=table(equipoSeleccionado))
+    totalPartidos <- cantVictoria + cantDerrota + cantEmpate
+    promedioGoles <- sumaGolesFavor/totalPartidos
+    promedioGoles <-format(round(promedioGoles, 2), nsmall = 2)
     showModal(modalDialog(
+      footer = modalButton("Aceptar"),
       title = paste ("Estadisticas de ", input$equ,sep = " ", collapse = NULL),
-      respuesta <-paste ("Goles anotados</br>
-                         Goles recibidos</br>cantEmpate
-                         Partidos ganados</br>
-                         Partidos perdidos</br>
-                         Partidos empatados</br>
-                         Rendimiento total en %", 
-                         input$equ,sep = " ", 
-                         collapse = NULL),
-      HTML(respuesta
+      HTML("Goles anotados: ",sumaGolesFavor,"</br>
+            Goles recibidos: ",sumaGolesContra,"</br>
+           Partidos ganados: ",cantVictoria,"</br>
+           Partidos perdidos: ",cantDerrota,"</br>
+           Partidos empatados: ",cantEmpate,"</br>
+           Total Partidos: ",totalPartidos,"</br>
+           Rango de temperatura: ",rangoGrados[1],"C° - ",rangoGrados[2],"C°</br>
+           Rango de Altitud: ",rangoAltura[1],"mts - ",rangoAltura[2],"mts</br>
+           Promedio de goles: ", promedioGoles,"</br>"
       )
     ))
   })
